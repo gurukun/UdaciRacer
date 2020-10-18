@@ -9,7 +9,7 @@
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0,0,0,0);
+  clip: rect(0, 0, 0, 0);
   border: 0;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 header {
-  background-image: url('https://via.placeholder.com/1150');
+  background-image: url("bigbanner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -106,7 +106,7 @@ footer {
 
 @media (min-width: 1224px) {
   header {
-    height: 700px;
+    height: 500px;
   }
 }
 
@@ -114,6 +114,6 @@ footer {
 
 @media (min-width: 1824px) {
   header {
-    height: 700px;
+    height: 500px;
   }
 }

@@ -2,9 +2,9 @@
 
 ## Project Introduction
 
-![header image](https://github.com/gurukun/UdaciRacer/blob/main/udaciracer.gif)
+This is the third Udacity project. The purpose of this project is to get comfortable reading, writing and thinking in asynchronous patterns.
 
-Here is a partially built-out game that races cars—your job is to complete it! Throughout the game logic, you will find _"TODO"_ comments that must be completed in order for the game to work. You are going to use the asynchronous skills you gained in the course to fill in the blanks in this game.
+![header image](https://github.com/gurukun/UdaciRacer/blob/main/udaciracer.gif)
 
 The game mechanics are this: you select a player and track, the game begins and you accelerate your racer by clicking an acceleration button. As you accelerate so do the other players and the leaderboard live-updates as players change position on the track. The final view is a results page displaying the players' rankings.
 

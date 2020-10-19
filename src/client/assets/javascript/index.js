@@ -1,4 +1,4 @@
-let store = {
+const store = {
   track_id: undefined,
   player_id: undefined,
   race_id: undefined,
@@ -248,7 +248,7 @@ function resultsView(positions) {
 }
 
 function raceProgress(positions) {
-  let userPlayer = positions.find(e => e.id === store.player_id);
+  const userPlayer = positions.find(e => e.id === store.player_id);
   if (userPlayer === undefined) {
     throw new Error("Please choose your track or racer!");
   }
